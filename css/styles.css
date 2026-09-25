@@ -1,0 +1,42 @@
+* {
+     margin: 0px;
+     padding: 0px;
+     box-sizing: border-box;
+     font-family: Roboto;
+}
+
+li {
+     list-style: none;
+}
+
+header,
+.hero {
+     background-color: #1F2937;
+}
+
+header {
+     display: flex;
+     justify-content: center;
+}
+
+.header-container {
+     width: 1025px;
+     padding: 1rem 0;
+     /* border: 3px solid white; */
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+}
+
+.header-logo {
+     color: #F9FAF8;
+     /* margin-right: auto; */
+     font-size: 24px;
+
+}
+
+.header-links-container {
+     display: flex;
+     gap: 1rem;
+     color: #e5e7eb;
+}
