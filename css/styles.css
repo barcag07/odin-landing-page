@@ -162,3 +162,34 @@ p.random-info-text {
      text-align: center;
      color: #55606d;
 }
+
+div.quote {
+     /* border: 3px solid black; */
+     padding: 130px 105px;
+     display: flex;
+     justify-content: center;
+     background-color: #E5E7EB;
+}
+
+div.quote-container {
+     /* border: 3px solid red; */
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     width: fit-content;
+     gap: .5rem;
+}
+
+p.quote-text {
+     /* border: 3px solid blue; */
+     font-size: 36px;
+     color: #1F2937;
+     font-weight: 300;
+     font-style:italic;
+}
+
+h2.quote-author {
+     /* border: 3px solid lawngreen; */
+     display:flex;
+     align-self: flex-end;
+}
