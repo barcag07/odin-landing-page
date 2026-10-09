@@ -193,3 +193,40 @@ h2.quote-author {
      display:flex;
      align-self: flex-end;
 }
+
+.call-to-action-container {
+     /* border: 3px solid red; */
+     display: flex;
+     justify-content: center;
+     padding: 100px 200px;
+     color: #ffff;
+}
+
+.call-to-action {
+     /* border: 3px solid blue; */
+     background-color: #3882F6;
+     display: flex;
+     justify-content: space-between;
+     padding: 50px 120px;
+     border-radius: 10px;
+}
+
+.call-to-action-text-container {
+     /* border: 3px solid green; */
+     display: flex;
+     flex-direction: column;
+     gap: .5rem;
+}
+
+.call-to-action-header {
+     /* border: 3px solid purple; */
+}
+
+.call-to-action-text {
+     /* border: 3px solid hotpink; */
+}
+
+.call-to-action-signup {
+     border: 2px solid #ffff;
+     color: #ffff;
+}
