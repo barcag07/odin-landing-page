@@ -230,3 +230,16 @@ h2.quote-author {
      border: 2px solid #ffff;
      color: #ffff;
 }
+
+footer {
+     /* border: 3px solid red; */
+     background-color: #1F2937;
+     display: flex;
+     justify-content: center;
+     color:#E5E7EB;
+}
+
+.footer-text {
+     /* border: 3px solid blue; */
+     padding: 40px 0;
+}
